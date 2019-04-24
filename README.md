@@ -45,5 +45,6 @@ w/ sub-lists
 
 [some link] (https://i.imgur.com/dxEjIsTb.jpg)
 
-[Dragon](https://i.imgur.com/dxEjIsTb.jpg)
+![Dragon](https://i.imgur.com/dxEjIsTb.jpg)
 
+hi
