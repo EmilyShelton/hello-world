@@ -58,3 +58,5 @@ hi
 7. Term. git push origin master
 
 Agenda for the day.
+
+1. Bug the teacher.
