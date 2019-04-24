@@ -48,3 +48,11 @@ w/ sub-lists
 ![Dragon](https://i.imgur.com/dxEjIsTb.jpg)
 
 hi
+
+1. In VS code, make a change to the file.
+2. Control-S (on VS)= Save File
+3. Term. git status = Red File Name
+4. term. git add .
+5. Term. git commit -m = "Title"
+6. Term. git status = Green File Name
+7. Term. git push origin master
