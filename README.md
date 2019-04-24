@@ -61,3 +61,4 @@ Agenda for the day.
 
 1. Bug the teacher.
 2. Eat food.
+3. Bug class.
