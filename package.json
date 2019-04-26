@@ -1,0 +1,24 @@
+{
+  "name": "EmilyShelton",
+  "version": "1.0.0",
+  "description": "Here is some normal text. A paragraph, even!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilyShelton/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilyShelton/hello-world/issues"
+  },
+  "homepage": "https://github.com/EmilyShelton/hello-world#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
