@@ -11,3 +11,6 @@ ul {
     background-color: yellow;
     color: lime;
 }
+.bold li {
+    font-weight: bolder
+}
