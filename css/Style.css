@@ -13,9 +13,13 @@ ul {
 }
 .bold li {
     font-weight: bolder;
+    text-align: center;
 }
-.Inforceful {
+.inforceful {
     font-size: 300%;
     text-align: center;
     font-family: 'Old English';
+}
+.center {
+    text-align: center;
 }
