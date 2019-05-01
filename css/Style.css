@@ -3,9 +3,11 @@ h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:italic
 }
+h2 {
+    text-align: center;
+}
 ul {
   color:lime;
-  background-color: hotpink;
 }
 .highlight {
     background-color: yellow;
@@ -18,11 +20,34 @@ ul {
 .inforceful {
     font-size: 300%;
     text-align: center;
-    background-color: lime;
 }
 .center {
     text-align: center;
 }
 .font {
     font-family:   Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#header {
+    background-color: lime;
+}
+#video {
+    background-color:royalblue;
+}
+#websites {
+    background-color: hotpink;
+    padding: 50px;
+    border: 5px dashed lime;
+    margin: 200px;
+}
+#footer {
+    background-color: aqua;
+}
+iframe {
+    width: 75%;
+    margin: 0 auto;
+}
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
 }
