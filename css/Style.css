@@ -1,45 +1,87 @@
 body {
     margin: 0;
 }
+
 h1 {
     color: hotpink;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic
-    
+    font-style: italic;
 }
+
 h2 {
     text-align: center;
 }
+
+iframe {
+    display: block;
+    width: 75%;
+    height: 505px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     color: lime;
     padding: 0;
     padding-left: 5px;
     margin: 0;
 }
+
+hr {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+}
+
+.image {
+    width: 100%;
+}
+
 .highlight {
     background-color: hotpink;
 }
+
 .bold li {
     font-weight: bolder;
     text-align: center;
 }
+
 .inforceful {
     font-size: 300%;
     text-align: center;
     margin: 0;
 }
+
 .center {
     text-align: center;
+    display: block;
 }
+
 .font {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tags li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #header {
     background-color: red;
     position: fixed;
     width: 100%;
     margin: 0 auto;
 }
+
 #navigation {
     background-color: yellow;
     position: fixed;
@@ -47,28 +89,75 @@ ul {
     margin: 0 auto;
     top: 55px;
 }
-#navigation li {
+
+#navigation li:hover {
+    background-color: orange;
+}
+
+#navigation .container>ul>li {
     display: inline;
 }
+
+#navigation li {
+    position: relative;
+    list-style: none;
+}
+
+#navigation ul ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: yellow;
+}
+
+#navigation a:hover+ul, #navigation a+ul:hover {
+    display: block;
+}
+
+#blog h2 {
+    font-family: 'Yesteryear', cursive;
+    text-align: center;
+    font-style: italic;
+    font-size: 3.5em;
+}
+
+#blog h3 {
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+#blog h4, #blog p {
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#blog {
+    margin: auto 10px;
+}
+
 #video {
     background-color: green;
     padding-top: 74px;
 }
+
 #websites {
     background-color: blue;
     padding: 50px;
     border: 5px dashed hotpink;
     margin: 5px 200px;
 }
+
 #footer {
     background-color: violet;
 }
-iframe {
-    width: 75%;
-    margin: 0 auto;
+
+#sites {
+    padding-top: 74px;
 }
-.container {
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
+
+#blog {
+    padding-top: 74px;
 }
