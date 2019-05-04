@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: hotpink;
+    color: #c3073f;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
 }
@@ -68,6 +68,8 @@ hr {
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
+    background-color: #1a1a1d;
+    color: #fff;
 }
 
 .tags li {
@@ -76,7 +78,7 @@ hr {
 }
 
 #header {
-    background-color: red;
+    background-color: #4e4e50;
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -135,11 +137,10 @@ hr {
 }
 
 #blog {
-    /* margin: auto 10px; */
+margin: auto 10px;
 }
 
 #video {
-    background-color: green;
     padding-top: 74px;
 }
 
