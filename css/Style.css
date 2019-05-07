@@ -1,6 +1,14 @@
 body {
     margin: 0;
     background-color: #1a1a1d;
+    display: grid;
+    grid-template-areas:"header"
+                        "navigation"
+                        "video"
+                        "websites"
+                        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh min-content 1fr 1fr min-content;
 }
 
 h1 {
@@ -13,9 +21,11 @@ h2 {
     text-align: center;
     color: #6f2232;
 }
+
 span {
     color: #6f2232;
 }
+
 iframe {
     display: block;
     width: 75%;
@@ -24,9 +34,11 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
 img {
     max-width: 100%;
 }
+
 ul {
     color: lime;
     padding: 0;
@@ -41,6 +53,10 @@ hr {
     border: 0 none;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #6f2232, rgba(0, 0, 0, 0));
     color: #6f2232;
+}
+
+form {
+    text-align: center;
 }
 
 .image {
@@ -91,13 +107,21 @@ hr {
 
 #navigation {
     background-color: #6f2232;
-    position: fixed;
+    position: sticky;
     width: 100%;
     margin: 0 auto;
     top: 55px;
     padding-bottom: 3px;
     padding-top: 3px;
     text-align: center;
+}
+
+/* #navigation .container>ul { */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20vh;
+    align-items: center;
 }
 
 #navigation li:hover {
@@ -123,9 +147,11 @@ hr {
 #navigation a:hover+ul, #navigation a+ul:hover {
     display: block;
 }
+
 a {
     color: #c3073f;
 }
+
 #blog h2 {
     font-family: 'Yesteryear', cursive;
     text-align: center;
@@ -150,7 +176,6 @@ a {
     margin: auto 10px;
 }
 
-
 #video {
     padding-top: 74px;
     background-color: #1a1a1d;
@@ -163,9 +188,11 @@ a {
     border: 5px dashed #c3073f;
     margin: 5px 200px;
 }
+
 #websites li {
     list-style: none;
 }
+
 #footer {
     background-color: #6f2232;
     color: #4e4e50;

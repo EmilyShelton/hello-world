@@ -52,8 +52,28 @@
         <h3>My <span>phone</span> can be reached at <span>(618)535-3510</span> anytime.</h3>
         <h4>You can also e-mail me at emilyshelton2727@outlook.com but I NEVER check it.</h4>
 
-
         <hr>
+
+        <form action="https://formspree.io/emilyshelton2727@outlook.com" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+
+            <label for="phone">Phone Number:</label>
+            <input type="phone" name="phone">
+
+            <label for="intent">What would you like to message me about?</label>
+            <br>
+            <div>
+                <input type="radio" name="intent" value="Hire me!" checked>
+                <span>Hire me!</span>
+            </div>
+            <div>
+                <input type="radio" name="intent" value="Get more information.">
+                <span>Get more information.</span>
+            </div>
+            
+            <input type="submit" value="Send Contact">
+        </form>
     </div>
 </body>
 
