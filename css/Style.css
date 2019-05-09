@@ -1,14 +1,14 @@
 body {
     margin: 0;
     background-color: #1a1a1d;
-    display: grid;
-    grid-template-areas:"header"
-                        "navigation"
-                        "video"
-                        "websites"
-                        "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 25vh min-content 1fr 1fr min-content;
+    /* display: grid; */
+    /* grid-template-areas:"header" */
+    /* "navigation" */
+    /* "video" */
+    /* "websites" */
+    /* "footer"; */
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 25vh min-content 1fr 1fr min-content; */
 }
 
 h1 {
@@ -59,6 +59,32 @@ form {
     text-align: center;
 }
 
+.arrow {
+    width: 500px;
+    height: 500px;
+    background: red;
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: myfirst;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: colorShift;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    @include color-shift('rgba(255,83,13,1)', 'rgba(232,44,12,1)', 'rgba(255,0,0,1)', 'rgba(232,12,122,1)', 'rgba(255,13,255,1)');
+    font-size: 27px;
+    font-weight: bolder;
+}
+
 .image {
     width: 100%;
 }
@@ -93,9 +119,18 @@ form {
     margin: 0 auto;
 }
 
+.swatch-a {
+}
+
 .tags li {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.websitelinks {
+    margin: 10px 0;
+    text-align: center;
+    display: block;
 }
 
 #header {
@@ -107,7 +142,8 @@ form {
 
 #navigation {
     background-color: #6f2232;
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     width: 100%;
     margin: 0 auto;
     top: 55px;
@@ -117,11 +153,12 @@ form {
 }
 
 /* #navigation .container>ul { */
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 20vh;
-    align-items: center;
+
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+height: 20vh;
+align-items: center;
 }
 
 #navigation li:hover {
