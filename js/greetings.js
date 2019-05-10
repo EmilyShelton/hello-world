@@ -1,6 +1,6 @@
+const userName = prompt('What is your name?');
+
 const verifyName = function verifyName(){
-    const userName = prompt('What is your name?');
-    
     if(userName === 'Emily'){
         console.log('hooray!');
     }
