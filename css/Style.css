@@ -62,7 +62,6 @@ form {
 .arrow {
     width: 500px;
     height: 500px;
-    background: red;
     position: relative;
     /* Chrome, Safari, Opera */
     -webkit-animation-name: myfirst;
