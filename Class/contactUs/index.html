@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Uncial+Antiqua|Yesteryear" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -15,7 +15,7 @@
     <div id="header">
         <div class="container">
             <h1 class="inforceful">
-                Websites
+                Hi Everyone
             </h1>
         </div>
     </div>
@@ -29,11 +29,9 @@
                     <ul>
                         <li><a href="https://facebook.com">Facebook</a></li>
                         <li><a href="https://www.facebook.com/michael.shelton.142">Emily Shelton's Page</a></li>
-                        <li>
-                            <a
+                        <li><a
                                 href="https://www.facebook.com/sheltonsoddjobsandoddities/?modal=composer&eid=ARCeBaHUuihqSCgCDblebHkDQ_l4KIbHK0gFlYecM3Z1nvVyGPxngQ8WqkxtEx9JaClw6goKIfG1SY2P&timeline_context_item_type=intro_card_work&timeline_context_item_source=100000013621805&fref=tag">Shelton's
-                                Odd Jobs & Oddities LLC</a>
-                        </li>
+                                Odd Jobs & Oddities LLC</a></li>
                     </ul>
                 </li>
                 <li><a href="../contactUs/">Contact Us</a></li>
@@ -48,22 +46,36 @@
             </ul>
         </div>
     </div>
-    <div id="sites">
-        <div>
-            <img class="image" src="../FBHome.png" alt="Facebook Home">
-        </div>
-        <a class="websitelinks" href="https://facebook.com"><span class="arrow">&#8593;</span> Facebook Home <span class="arrow">&#8593;</span></a>
-        <div>
-            <img src="../mypage.png" alt="My Home Page">
-        </div>
-        <a class="websitelinks" href="https://www.facebook.com/michael.shelton.142"><span class="arrow">&#8593;</span> My Home Page <span class="arrow">&#8593;</span></a>
-        <div>
-            <img src="../oddjobs.png" alt="My Company Page">
-        </div>
-        <a class="websitelinks"
-        href="https://www.facebook.com/sheltonsoddjobsandoddities/?modal=composer&eid=ARCeBaHUuihqSCgCDblebHkDQ_l4KIbHK0gFlYecM3Z1nvVyGPxngQ8WqkxtEx9JaClw6goKIfG1SY2P&timeline_context_item_type=intro_card_work&timeline_context_item_source=100000013621805&fref=tag"><span class="arrow">&#8593;</span> My
-        Company Page <span class="arrow">&#8593;</span></a>
+    <div id=blog>
+
+        <h2>Contact</h2>
+        <h3>My <span>phone</span> can be reached at <span>(618)535-3510</span> anytime.</h3>
+        <h4>You can also e-mail me at emilyshelton2727@outlook.com but I NEVER check it.</h4>
+
+        <hr>
+
+        <form action="https://formspree.io/emilyshelton2727@outlook.com" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+
+            <label for="phone">Phone Number:</label>
+            <input type="phone" name="phone">
+
+            <label for="intent">What would you like to message me about?</label>
+            <br>
+            <div>
+                <input type="radio" name="intent" value="Hire me!" checked>
+                <span>Hire me!</span>
+            </div>
+            <div>
+                <input type="radio" name="intent" value="Get more information.">
+                <span>Get more information.</span>
+            </div>
+            
+            <input type="submit" value="Send Contact">
+        </form>
     </div>
+    <script src="js/greetings.js"></script>
 </body>
 
 </html>
